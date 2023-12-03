@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./images/mis.png">
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- Google Icons -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>MIS</title>
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <div class="cont">
+                <div class="logo">
+                    <a href="index.html">
+                        <img src="./images/mis.png" alt="logo">
+                        <h1>MIS</h1>
+                    </a>
+                </div>
+                <nav>
+                    <ul>
+                        <a href="index.html">
+                            <li>الرئيسية</li>
+                        </a>
+                        <a href="#">
+                            <li>من نحن</li>
+                        </a>
+                        <a href="">
+                            <li class="sign-in">تسجيل الدخول</li>
+                        </a>
+
+                        <a href="#" class="menu">
+                            <i class="material-symbols-rounded">
+                                menu
+                            </i>
+                        </a>
+                    </ul>
+                </nav>
+            </div>
+
+        </div>
+    </header>
+
+    <div class="heading">
+        <div class="container">
+            <div class="left-sec">
+                <div class="text">
+                    <h2 id="title"></h2>
+                    <p>
+                        نظم المعلومات هي مجموعة من البرامج التي تستخدم لأرشفة وإدارة وتنظيم البيانات، ومعالجتها بإجراءات
+                        معيّنة أُنشئت حسب آلية سير العمل في المؤسسة، وذلك للحصول على المخرجات النهائيّة، ويشار إلى أنّ
+                        نظم المعلومات تختلف اختلافاً كليّاً عن تكنولوجيا المعلومات، حيث إن نظم المعلومات تستخدم تقنيات
+                        تكنولوجيا المعلومات التي ابتُكرت لخدمة أعمالها القائمة عليها.
+                    </p>
+                </div>
+                <div class="buttons">
+                    <a href="#">سجل الآن</a>
+                    <a href="#" class="expl">اكتشف الدورات</a>
+                </div>
+            </div>
+            <div class="right-sec">
+                <img src="./images/headingImg.png" alt="heading-img">
+            </div>
+        </div>
+        <div class="scrl-down">
+            <a href="#sec1">
+                <i class="material-symbols-rounded">
+                    arrow_drop_down
+                </i>
+            </a>
+        </div>
+    </div>
+
+    <main>
+        <section id="sec1">
+
+            <div class="container swiper mySwiper">
+                <div class="swiper-wrapper">
+
+                    <!-- Card Start -->
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            
+                        </div>
+                    </div>
+                    <!-- Card End -->
+                    <!-- Card Start -->
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            
+                        </div>
+                    </div>
+                    <!-- Card End -->
+                    
+                    <!-- Card Start -->
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            
+                        </div>
+                    </div>
+                    <!-- Card End -->
+
+                    <!-- Card Start -->
+                    <div class="swiper-slide card">
+                        <div class="card-content">
+                            
+                        </div>
+                    </div>
+                    <!-- Card End -->
+                    
+
+                   
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            
+        </section>
+    </main>
+    <div class="scroller">
+        <span class="material-symbols-rounded">
+            expand_less
+        </span>
+    </div>
+
+    <script src="./js/main.js"></script>
+     <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      slidesPerView: 3,
+      spaceBetween: 30,
+      freeMode: true,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
+      },
+    });
+  </script>
+</body>
+
+</html>
